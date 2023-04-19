@@ -77,6 +77,7 @@ const tw: LocaleType = {
         tr: "Türkçe",
         jp: "日本語",
         de: "Deutsch",
+        vi: "Tiếng Việt",
       },
     },
     Avatar: "大頭貼",
@@ -108,7 +109,7 @@ const tw: LocaleType = {
       Modal: {
         Title: "提示詞列表",
         Add: "增加一條",
-        Search: "搜尋提示詞",
+        Search: "搜索提示词",
       },
     },
     HistoryCount: {
@@ -160,9 +161,9 @@ const tw: LocaleType = {
       History: (content: string) =>
         "這是 AI 與用戶的歷史聊天總結，作為前情提要：" + content,
       Topic:
-        "Use the language used by the user (e.g. en for english conversation, zh-hant for chinese conversation, etc.) to generate a title (at most 6 words) summarizing our conversation without any lead-in, quotation marks, preamble like 'Title:', direct text copies, single-word replies, quotation marks, translations, or brackets. Remove enclosing quotation marks. The title should make third-party grasp the essence of the conversation in first sight.",
+        "Summarise the conversation in a short and concise eye-catching title that instantly conveys the main topic. Use as few words as possible. Use the language used in the enquiry, e.g. use English for English enquiry, use zh-hant for traditional chinese enquiry. Don't use quotation marks at the beginning and the end.",
       Summarize:
-        "Use the language used by the user (e.g. en-us for english conversation, zh-hant for chinese conversation, etc.) to summarise the conversation in at most 200 words. The summary will be used as prompt for you to continue the conversation in the future.",
+        "Summarise the conversation in at most 250 tokens for continuing the conversation in future. Use the language used in the conversation, e.g. use English for English conversation, use zh-hant for traditional chinese conversation.",
     },
     ConfirmClearAll: "確認清除所有對話、設定數據？",
   },

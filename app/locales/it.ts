@@ -79,6 +79,7 @@ const it: LocaleType = {
         tr: "Türkçe",
         jp: "日本語",
         de: "Deutsch",
+        vi: "Tiếng Việt",
       },
     },
     Avatar: "Avatar",

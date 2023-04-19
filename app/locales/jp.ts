@@ -78,6 +78,7 @@ const jp = {
         tr: "Türkçe",
         jp: "日本語",
         de: "Deutsch",
+        vi: "Tiếng Việt",
       },
     },
     Avatar: "アバター",
@@ -109,9 +110,9 @@ const jp = {
         `組み込み ${builtin} 件、ユーザー定義 ${custom} 件`,
       Edit: "編集",
       Modal: {
-        Title: "プロンプトリスト",
-        Add: "新規追加",
-        Search: "プロンプトワード検索",
+        Title: "提示词列表",
+        Add: "增加一条",
+        Search: "搜尋提示詞",
       },
     },
     HistoryCount: {
